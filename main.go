@@ -4,7 +4,7 @@ func main() {
 	purchase := 33_33
 	percent := 1
 	limit := 100
-	bonus := (purchase * percent)/limit
+	bonus := (purchase * percent) / limit
 
 	if bonus < limit {
 		println(bonus)
@@ -13,4 +13,3 @@ func main() {
 		println(bonus)
 	}
 }
-
