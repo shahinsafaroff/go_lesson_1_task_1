@@ -1,10 +1,12 @@
 package main
 
 func main() {
-	purchase := 33_33
-	percent := 1
-	limit := 100
-	bonus := (purchase * percent) / limit
+	var (
+		purchase float64   = 33_33.0
+		percent  float64   = 1.0
+		limit    float64   = 100.0
+		bonus    float64 = (purchase * percent) / limit
+	)
 
 	if bonus < limit {
 		println(bonus)
